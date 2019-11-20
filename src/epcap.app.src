@@ -1,0 +1,10 @@
+{application, epcap, [
+    {description, "libpcap port"},
+    {vsn, "0.7.9"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+     ]},
+    {env, []}
+]}.
